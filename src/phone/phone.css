@@ -15,9 +15,9 @@
     height: 20px;
 }
 .textUnder {
-    font-family: MoshitaMono;
+    font-family: Museo;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 17px;
     color: gray;
 }
 
@@ -26,17 +26,21 @@
     text-align: center;
 }
 .authTitle {
-    font-family:MoshitaMono;
+    font-family:Museo;
     font-weight: Bold;
-    font-size: 45px;
+    line-height: 41px;
+    font-size: 34px;
+    letter-spacing: 0.374px;
     opacity: .8;
 }
 
 .textUnderAuth {
     margin-top: 15px;
-    font-family: MoshitaMono;
+    font-family: Museo;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 17px;
+    /* width: 327px; */
+    /* margin-left: 15px; */
     color: gray;
 }
 
@@ -52,9 +56,11 @@
     opacity: .8;
 }
 .pswInpStr {
+    /* background: green; */
     margin-left: 25px;
     width: 85%;
     display: flex;
+    justify-content: space-between;
     padding-bottom: 7px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.4);
     opacity: .8;
@@ -73,15 +79,17 @@
     width: 50%;
     padding: 10px;
     border: none;
+    /* background: blue; */
 }
 .fgPsw {
     margin-top: 10px;
     background: none;
     border: none;
     color: orange;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     transition: .3s;
+    /* background: red; */
 }
 .fgPsw:hover {
     color: rgb(255, 181, 44);
